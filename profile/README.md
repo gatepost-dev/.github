@@ -1,4 +1,7 @@
-# Gatepost
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gatepost-dev/.github/main/brand/gatepost-lockup-dark.svg">
+  <img src="https://raw.githubusercontent.com/gatepost-dev/.github/main/brand/gatepost-lockup.svg" alt="gatepost" height="48">
+</picture>
 
 Unofficial, open-source developer tools for Nigeria's National Digital Postcode.
 
