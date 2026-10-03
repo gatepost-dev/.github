@@ -4,6 +4,8 @@ Thank you for your interest in Gatepost. This guide explains how to make a chang
 
 Gatepost is unofficial. For problems with NIPOST's own app, data or API, contact NIPOST through the contact details on its official website.
 
+Everyone who takes part follows the [code of conduct](CODE_OF_CONDUCT.md). To report a problem with behaviour, write to aidelojejoshua@gmail.com.
+
 ## Before you start
 
 1. Read `CODING_STANDARDS.md` and the files it names. Reviews cite their rule IDs.
