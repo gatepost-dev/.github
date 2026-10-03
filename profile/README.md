@@ -1,42 +1,24 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gatepost-dev/.github/main/brand/gatepost-lockup-dark.svg">
-  <img src="https://raw.githubusercontent.com/gatepost-dev/.github/main/brand/gatepost-lockup.svg" alt="gatepost" height="48">
-</picture>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gatepost-dev/.github/main/brand/gatepost-lockup-dark.svg">
+    <img src="https://raw.githubusercontent.com/gatepost-dev/.github/main/brand/gatepost-lockup.svg" alt="Gatepost" width="280">
+  </picture>
+</p>
 
-Unofficial, open-source developer tools for Nigeria's National Digital Postcode.
+<p align="center">Open-source developer tools for Nigeria's digital postcode.</p>
 
-> Gatepost is independent. NIPOST did not make or endorse it.
+<p align="center"><strong>Unofficial. Not made or endorsed by NIPOST.</strong></p>
 
-On 1 October 2026, NIPOST launched a digital postcode for addressable buildings and locations in Nigeria. A postcode such as `EK-01-A03-FK-01` has five segments, from large to small: state, LGA, district, area and unit. The unit is one building.
+Gatepost helps apps, websites and online stores accept the new postcode. The tools check the form of a postcode offline, clean typed input, suggest a fix for a common typo and call NIPOST's gateway with your own API key.
 
-Gatepost helps apps, websites and online stores accept these postcodes.
+- [spec](https://github.com/gatepost-dev/spec): the grammar and the client contract, at 0.2.0.
+- [js](https://github.com/gatepost-dev/js): the TypeScript core and client. Alpha. Not on npm yet.
+- [php](https://github.com/gatepost-dev/php): the PHP package. v0.1.0-alpha.1 is tagged. Not on Packagist yet.
+- [docs](https://github.com/gatepost-dev/docs): the site. Live.
+- [woocommerce](https://github.com/gatepost-dev/woocommerce): the plugin. In review on a branch. Not released.
 
-## What the tools do
+Read the [docs](https://gatepost-dev.github.io/docs/) or try the [playground](https://gatepost-dev.github.io/docs/playground/).
 
-- Check the form of a postcode offline, with no API key and no network call.
-- Clean typed or pasted input: spaces, dashes, full-width characters and invisible characters.
-- Suggest a fix for a common typo, such as the letter O where a zero belongs.
-- Recognise an old 6-digit postcode.
-- Move between the levels of a postcode, from a building up to its state.
-- Hide the building part of a postcode in logs.
+To help, read the [contributing guide](https://github.com/gatepost-dev/.github/blob/main/CONTRIBUTING.md), pick a `good first issue` or ask in Discussions on any repo.
 
-Only NIPOST's API can say whether a building has a given postcode. Gatepost checks the form first, so an app calls the API less often and with clean input.
-
-## Repositories
-
-| Repository | What it holds |
-|---|---|
-| [spec](https://github.com/gatepost-dev/spec) | The postcode grammar, the data, the test cases that every SDK must pass, and the coding standards |
-| [js](https://github.com/gatepost-dev/js) | TypeScript packages, starting with `@gatepost/core` |
-
-Planned: PHP next, then more languages, a WooCommerce plugin and a React form field.
-
-Gatepost is in early development. No package is published yet.
-
-## Security
-
-Do not open a public issue for a security problem. Use "Report a vulnerability" on the Security tab of the affected repository. Read [SECURITY.md](https://github.com/gatepost-dev/.github/blob/main/SECURITY.md).
-
-## Licence
-
-Apache-2.0.
+Report a security problem through the private form on the Security tab of the repo. Read [SECURITY.md](https://github.com/gatepost-dev/.github/blob/main/SECURITY.md). Licence: Apache-2.0.
