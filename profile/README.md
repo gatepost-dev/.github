@@ -5,17 +5,17 @@
   </picture>
 </p>
 
-<p align="center">Open-source developer tools for Nigeria's digital postcode.</p>
+<p align="center">Open-source developer tools for Nigeria's 11-character NIPOST digital postcode.</p>
 
 <p align="center"><strong>Unofficial. Not made or endorsed by NIPOST.</strong></p>
 
-Gatepost helps apps, websites and online stores accept the new postcode. The tools check the form of a postcode offline, clean typed input, suggest a fix for a common typo and call NIPOST's gateway with your own API key.
+Gatepost helps apps, websites and online stores accept the new postcode, such as `EK-01-A03-FK-01`, in TypeScript, PHP and WooCommerce. The tools check the form of a postcode offline, clean typed input, suggest a fix for a common typo and call NIPOST's gateway with your own API key.
 
-- [spec](https://github.com/gatepost-dev/spec): the grammar and the client contract, at 0.2.0.
-- [js](https://github.com/gatepost-dev/js): the TypeScript core and client. Alpha. Not on npm yet.
-- [php](https://github.com/gatepost-dev/php): the PHP package. v0.1.0-alpha.1 is tagged. Not on Packagist yet.
-- [docs](https://github.com/gatepost-dev/docs): the site. Live.
-- [woocommerce](https://github.com/gatepost-dev/woocommerce): the plugin. In review on a branch. Not released.
+- [spec](https://github.com/gatepost-dev/spec): the grammar, the client contract and the shared test vectors, at 0.4.0.
+- [js](https://github.com/gatepost-dev/js): the TypeScript core, client, web field and React wrapper. Alpha. Not on npm yet.
+- [php](https://github.com/gatepost-dev/php): the PHP package, on Packagist as [`gatepost/postcode`](https://packagist.org/packages/gatepost/postcode). Alpha.
+- [woocommerce](https://github.com/gatepost-dev/woocommerce): the WooCommerce plugin. On `main`. Not released yet.
+- [docs](https://github.com/gatepost-dev/docs): the [docs site](https://gatepost-dev.github.io/docs/), with guides, the API reference and a playground.
 
 Read the [docs](https://gatepost-dev.github.io/docs/) or try the [playground](https://gatepost-dev.github.io/docs/playground/).
 
