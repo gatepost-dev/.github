@@ -12,9 +12,9 @@
 Gatepost helps apps, websites and online stores accept the new postcode, such as `EK-01-A03-FK-01`, in TypeScript, PHP and WooCommerce. The tools check the form of a postcode offline, clean typed input, suggest a fix for a common typo and call NIPOST's gateway with your own API key.
 
 - [spec](https://github.com/gatepost-dev/spec): the grammar, the client contract and the shared test vectors, at 0.4.0.
-- [js](https://github.com/gatepost-dev/js): the TypeScript core, client, web field and React wrapper. Alpha. Not on npm yet.
+- [js](https://github.com/gatepost-dev/js): the TypeScript core, client, web field and React wrapper, on npm as [`@gatepost/core`](https://www.npmjs.com/package/@gatepost/core), [`@gatepost/client`](https://www.npmjs.com/package/@gatepost/client), [`@gatepost/field`](https://www.npmjs.com/package/@gatepost/field) and [`@gatepost/react`](https://www.npmjs.com/package/@gatepost/react). Alpha.
 - [php](https://github.com/gatepost-dev/php): the PHP package, on Packagist as [`gatepost/postcode`](https://packagist.org/packages/gatepost/postcode). Alpha.
-- [woocommerce](https://github.com/gatepost-dev/woocommerce): the WooCommerce plugin. On `main`. Not released yet.
+- [woocommerce](https://github.com/gatepost-dev/woocommerce): the WooCommerce plugin. [v0.1.0](https://github.com/gatepost-dev/woocommerce/releases/tag/v0.1.0) is on GitHub. Not on WordPress.org yet.
 - [docs](https://github.com/gatepost-dev/docs): the [docs site](https://gatepost-dev.github.io/docs/), with guides, the API reference and a playground.
 
 Read the [docs](https://gatepost-dev.github.io/docs/) or try the [playground](https://gatepost-dev.github.io/docs/playground/).
